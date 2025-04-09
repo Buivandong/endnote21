@@ -1,8 +1,9 @@
 if [ "$(uname -o)" == "Android" ]; then
-  reset
+  clear
 else
   cls
 fi
+
 
 # Các lệnh khác
 echo "WKHPY-T4SBF-XPR47-LJ34B-UJU8H"
