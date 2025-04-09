@@ -1,3 +1,8 @@
-xdg-open https://download.endnote.com/downloads/21/EN21Inst.exe
+@echo off
+cls
+ping 127.0.0.1 -n 3 -w 1000 > nul
+cls
 
-echo "WKHPY-T4SBF-XPR47-LJ34B-UJU8H"
+start https://download.endnote.com/downloads/21/EN21Inst.exe 
+
+KEY:  WKHPY-T4SBF-XPR47-LJ34B-UJU8H
