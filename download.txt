@@ -1,5 +1,7 @@
-open https://download.endnote.com/downloads/21/EN21Inst.exe &
-
-sleep 5
-
-echo "WKHPY-T4SBF-XPR47-LJ34B-UJU8H"
+if [ "$(uname -o)" == "Android" ]; then
+  echo "WKHPY-T4SBF-XPR47-LJ34B-UJU8H"
+  am start -a android.intent.action.VIEW -d https://download.endnote.com/downloads/21/EN21Inst.exe
+else
+  echo "WKHPY-T4SBF-XPR47-LJ34B-UJU8H"
+  xdg-open https://download.endnote.com/downloads/21/EN21Inst.exe
+fi
